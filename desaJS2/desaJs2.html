@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="desaJs2Css/desaJs2.css">
+    <script src="desaJs2JS/desaJs2.js"></script>
+    <title>Desafio JS2</title>
+</head>
+
+<style>
+   .material-symbols-outlined {
+    color: #2196f3;
+    font-size: 64px;
+    }     
+    </style>
+<body >
+    <header>
+        <h1>ME ACHA!</h1>
+        <H2>ENCONTRE UM ENDEREÇO PELO NUMERO DE CEP</H2>
+        <div class="center">
+             <span class="material-symbols-outlined">
+            travel_explore
+            </span>
+        </div>
+    </header>
+    <main>
+        <article>
+            <form method="get" name="busca">
+                <div >
+                <label for="cep">Cep</label>
+                <input type="text" id="cep" required placeholder="    Digite seu CEP  ">
+                <label for="rua">Rua</label>
+                <input type="text" id="logradouro" disabled="">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" disabled="">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="localidade" disabled="">
+                <label for="estado">Estado</label>
+                <input type="text" id="uf" disabled="">
+                <label for="enviar">    </label>
+                <input class="cor" type="button" id="busca" value="BUSCAR">
+            </div>
+            </form>
+        </article>
+        
+    </main>
+    <footer></footer>
+</body>
+</html>
